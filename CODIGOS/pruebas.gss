@@ -1,0 +1,8 @@
+load fetch.Imemo "archivosPrueba/mult.mem"
+load mem.Dmemo "archivosPrueba/mult.mem"
+
+probe clock0
+probe Instruccion
+probe Read_data_1
+probe Read_data_2
+probe Write_Data
